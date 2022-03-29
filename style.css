@@ -1,57 +1,74 @@
 body{
-width: 700px;
-height: 500px;
-background-color: beige;
-margin: 0 auto;
-padding: 20px;
-position: relative;
-align-content: center;
-}
-
-
-h1{
-font-weight: 400;
-text-align: center;
-padding-top: 0 auto;
-}
-
-.divh2{
-text-decoration: dashed;
-width: 780px;
-background-color: whitesmoke;
-color: black;
-margin: 0 auto;
-font-size: medium;
-text-align: center;
-
-}
-
-
-.flex-container{
-margin: 0 auto;
-width: 700px;
-height: 430px;
-display: flex;
-
-
-}
-
-.container{
-    width: 800px;
-    height: 1000px;
-    background-color: bisque;
-    flex-direction: row;
-}
-
-#titulopratos{
-    text-transform: uppercase;
-    background-color: white;
-    border: 15px solid whitesmoke;
-    border-radius: 30px;
+    width: 700px;
+    height: 500px;
+    background-color: beige;
+    margin: 0 auto;
+    padding: 20px;
     position: relative;
-    color: blue;
-    text-decoration: solid;
+    align-content: center;
+    }
+    
+    
+    h1{
+    font-weight: 400;
     text-align: center;
-}
+    padding-top: 0 auto;
+    }
+    
+    .divh2{
+    text-decoration: dashed;
+    width: 780px;
+    border: 20px;
+    background-color: whitesmoke;
+    color: black;
+    margin: 0 auto;
+    font-size: medium;
+    text-align: center;
+    
+    }
+    
+    
 
+    .flex-container{
+        margin: 0 auto;
+        width: 690px;
+        height: 430px;
+        display: flex;
+        
+        
+        }
+    
+    .container{
+        width: 800px;
+        height: 2000px;
+        border: 15px;
+        background-color: bisque;
+        flex-direction: row;
+    
+    }
+    
+    #titulopratos{
+        text-transform: uppercase;
+        width: 200px;
+        height: 380px;
+        background-color: rgb(235, 222, 222);
+        border: 5px solid rgb(255, 253, 253);
+        border-radius: 15px;
+        padding: 10px;
+        position: relative;
+        color: rgb(1, 1, 5);
+        text-decoration: solid;
+        text-align: center;
+    }
 
+    .imagens{
+        width: 200px;
+        height: 300px;
+    }
+
+    #banner{
+        margin-top: 5px;
+        display: flex;
+        margin: 0 auto;
+        padding: 10px;
+    }
